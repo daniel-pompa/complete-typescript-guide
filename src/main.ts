@@ -1,7 +1,7 @@
 import './assets/css/style.css';
 import typescriptLogo from './assets/images/typescript.svg';
 import { insertCurrentYear } from './utils';
-import { dataTypeExamples, TITLE } from './examples/data-types/data-type-examples';
+import { objectExamples, TITLE } from './examples/objects/object-examples';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <main>
@@ -46,4 +46,4 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 insertCurrentYear('year');
 
 // Add the example you want to use here
-dataTypeExamples();
+objectExamples();
