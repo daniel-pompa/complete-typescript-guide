@@ -1,6 +1,6 @@
 # ![Header Image](./src/assets/images/header-image.svg)
 
-Welcome to the **TypeScript Tutorial Project**.
+Welcome to the **Complete TypeScript Guide**.
 
 This repository contains a collection of exercises to practice and understand both basic and advanced TypeScript concepts. It aims to provide a hands-on approach to learning TypeScript through practical examples. Topics covered include data types, functions, objects, classes, interfaces, namespaces, generics, and decorators. Each section includes practical examples to aid in comprehension and proficiency in TypeScript.
 
@@ -218,7 +218,8 @@ export const getMarvelHero = async (name: string): Promise<IMarvelHero> => {
 };
 ```
 
-The following link [Interactive API Tester](https://developer.marvel.com/docs) displays documentation of all endpoints, parameters and error messages available for the Marvel API.
+> [!NOTE]
+> The following link [Interactive API Tester](https://developer.marvel.com/docs) displays documentation of all endpoints, parameters and error messages available for the Marvel API.
 
 ## Contributing
 
