@@ -1,7 +1,10 @@
 import './assets/css/style.css';
 import typescriptLogo from './assets/images/typescript.svg';
 import { insertCurrentYear } from './utils';
-import { singletonPatternExample, TITLE } from './examples/classes/singleton-pattern';
+import {
+  mathOperationsNamespaceExample,
+  TITLE,
+} from './examples/namespaces/math-operations';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <main>
@@ -46,4 +49,4 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 insertCurrentYear('year');
 
 // Add the example you want to use here
-singletonPatternExample();
+mathOperationsNamespaceExample();
