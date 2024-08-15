@@ -1,10 +1,7 @@
 import './assets/css/style.css';
 import typescriptLogo from './assets/images/typescript.svg';
 import { insertCurrentYear } from './utils';
-import {
-  mathOperationsNamespaceExample,
-  TITLE,
-} from './examples/namespaces/math-operations';
+import { genericClassExamples, TITLE } from './examples/generics/generic-class';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <main>
@@ -49,4 +46,4 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 insertCurrentYear('year');
 
 // Add the example you want to use here
-mathOperationsNamespaceExample();
+genericClassExamples();
