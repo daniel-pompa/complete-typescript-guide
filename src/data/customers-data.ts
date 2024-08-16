@@ -1,0 +1,38 @@
+export const customersData = [
+  {
+    id: '619bdef6-3168-4e0a-87bc-4ae38ba7fc67',
+    firstName: 'Emma',
+    lastName: 'Ciambrino',
+    age: 42,
+    phone: '669 56 45 82',
+    email: 'emma.ciambrino@example.com',
+    premium: true,
+  },
+  {
+    id: 'd3fba9c1-6905-415b-87b7-56de34d8c047',
+    firstName: 'Carmen',
+    lastName: 'Ciambrino',
+    age: 36,
+    phone: '656 86 32 54',
+    email: 'carmen.ciambrino@example.com',
+    premium: false,
+  },
+  {
+    id: '592768f1-b13f-4ec1-b82b-0d1027248dba',
+    firstName: 'Daniel',
+    lastName: 'Pompa',
+    age: 49,
+    phone: '648 55 62 14',
+    email: 'daniel.pompa@example.com',
+    premium: false,
+  },
+  {
+    id: 'f3ec4d0c-d728-43dc-ae58-85f295ba29f8',
+    firstName: 'Razvan',
+    lastName: 'Ilies',
+    age: 38,
+    phone: '686 56 54 28',
+    email: 'razvan.ilies@example.com',
+    premium: true,
+  },
+];
