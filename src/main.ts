@@ -1,7 +1,7 @@
 import './assets/css/style.css';
 import typescriptLogo from './assets/images/typescript.svg';
 import { insertCurrentYear } from './utils';
-import { decoratorExamples, TITLE } from './examples/decorators/decorator-examples';
+import { fetchMarvelHeroExamples, TITLE } from './api/fetch-marvel-hero';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <main>
@@ -46,4 +46,4 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 insertCurrentYear('year');
 
 // Add the example you want to use here
-decoratorExamples();
+fetchMarvelHeroExamples();
